@@ -147,6 +147,8 @@
     position: relative;
     overflow: hidden;
   }
+  .white-title { color: #fff !important; }
+
   .hero::after {
     content: "";
     position: absolute;
@@ -201,7 +203,7 @@
     gap: 10px;
   }
   .logo-image {
-    height: 40px;
+    height: 60px;
     width: auto;
   }
   @keyframes slideInUp {
@@ -419,7 +421,14 @@
   </section>
   <section id="services" class="services">
     <div class="container">
-      <h2 class="section-title">AI Solutions & Services</h2>
+      <h2 class="section-title white-title"
+          style="background:none !important;
+           -webkit-background-clip:unset !important;
+           -webkit-text-fill-color:#fff !important;
+           background-clip:unset !important;
+           color:#fff !important;
+           text-shadow:none !important;">AI Solutions & Services
+      </h2>
       <div class="services-grid">
         <div class="service-card">
           <div class="service-icon">🧠</div>
