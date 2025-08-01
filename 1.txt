@@ -11,7 +11,7 @@
     line-height: 1.6;
     color: #333;
     overflow-x: hidden;
-    background-color: #ffffff;
+    background-color: #fefefe;
     position: relative;
     min-height: 100vh;
   }
@@ -195,15 +195,6 @@
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     border-color: rgba(255,255,255,0.6);
   }
-  .logo-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .logo-image {
-    height: 40px;
-    width: auto;
-  }
   @keyframes slideInUp {
     from { opacity: 0; transform: translateY(30px);}
     to   { opacity:1; transform: translateY(0);}
@@ -379,20 +370,17 @@
 </style>
 </head>
 <body>
-<header>
-  <nav class="container">
-    <div class="logo-container">
-      <img src="00.png" alt="Logo" class="logo-image">
-      <a href="#" class="logo rainbow-text">Dummy</a>
-    </div>
-    <ul class="nav-links">
-      <li><a href="#home" class="rainbow-text">Home</a></li>
-      <li><a href="#about" class="rainbow-text">About</a></li>
-      <li><a href="#services" class="rainbow-text">Services</a></li>
-      <li><a href="#contact" class="rainbow-text">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <header>
+    <nav class="container">
+      <a href="#" class="logo rainbow-text">Bogen AI</a>
+      <ul class="nav-links">
+        <li><a href="#home" class="rainbow-text">Home</a></li>
+        <li><a href="#about" class="rainbow-text">About</a></li>
+        <li><a href="#services" class="rainbow-text">Services</a></li>
+        <li><a href="#contact" class="rainbow-text">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   <section id="home" class="hero">
     <div class="hero-content">
       <h1>AI-Powered Business Transformation</h1>

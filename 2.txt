@@ -382,7 +382,7 @@
 <header>
   <nav class="container">
     <div class="logo-container">
-      <img src="00.png" alt="Logo" class="logo-image">
+      <img src="0.png" alt="Logo" class="logo-image">
       <a href="#" class="logo rainbow-text">Dummy</a>
     </div>
     <ul class="nav-links">
